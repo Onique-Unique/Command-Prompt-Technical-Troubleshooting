@@ -26,7 +26,7 @@ while True:
 
             CMD_Line = print(CMD_Command)
 
-            if CMD_Command == 1:
+            if CMD_Command >= 1:
                 print("Process -" + Enter + "- Unsuccesful")
                 #sys.exit()
                 
@@ -54,7 +54,7 @@ while True:
 
             CMD_Line = print(CMD_Command)
 
-            if CMD_Command == 1:
+            if CMD_Command >= 1:
                 print("Process -" + Enter1 + "- Unsuccesful")
                 
             else:
@@ -64,7 +64,7 @@ while True:
 
             CMD_Line = print(CMD_Command)
 
-            if CMD_Command == 1:
+            if CMD_Command >= 1:
                 print("Process -" + Enter2 + "- Unsuccesful")
                 
             else:
@@ -77,7 +77,7 @@ while True:
             else:
                 CMD_Line = print(CMD_Command)
 
-                if CMD_Command == 1:
+                if CMD_Command >= 1:
                     print("Process -" + Enter3 + "- Unsuccesful")
                     
                 else:
@@ -90,7 +90,7 @@ while True:
             else:
                 CMD_Line = print(CMD_Command)
 
-                if CMD_Command == 1:
+                if CMD_Command >= 1:
                     print("Process -" + Enter4 + "- Unsuccesful")
                     
                 else:
@@ -103,7 +103,7 @@ while True:
             else:
                 CMD_Line = print(CMD_Command)
 
-                if CMD_Command == 1:
+                if CMD_Command >= 1:
                     print("Process -" + Enter5 + "- Unsuccesful")
                     #sys.exit()
                     
