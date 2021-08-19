@@ -117,10 +117,7 @@ while True:
                     else:
                         print("Process -" + Enter2 + "- Succesful")
 
-                    if Enter3 == "":
-                        print("No Further Entry Was given")
-
-                    elif CMD_Command3 >= 1:
+                    if CMD_Command3 >= 1:
                         print("Process -" + Enter3 + "- Unsuccesful")
 
                     else:
@@ -172,19 +169,13 @@ while True:
                     else:
                         print("Process -" + Enter2 + "- Succesful")
 
-                    if Enter3 == "":
-                        print("No Further Entry Was given")
-
-                    elif CMD_Command3 >= 1:
+                    if CMD_Command3 >= 1:
                         print("Process -" + Enter3 + "- Unsuccesful")
 
                     else:
                         print("Process -" + Enter3 + "- Succesful")
 
-                    if Enter4 == "":
-                        print("No Further Entry Was given")
-
-                    elif CMD_Command4 >= 1:
+                    if CMD_Command4 >= 1:
                         print("Process -" + Enter4 + "- Unsuccesful")
 
                     else:
@@ -201,4 +192,3 @@ while True:
                         print("Process -" + Enter5 + "- Succesful")
                         #sys.exit()
  
-
