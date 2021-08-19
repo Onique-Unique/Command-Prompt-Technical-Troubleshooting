@@ -4,7 +4,7 @@ import sys
 #Running CMD commands in python
 #This script is written to run and check the success of an operable command
 #Returns a not succesful when a command is not operable / not functioning
-#Given any figure return below 0 is a success and 1 above is unsuccesful
+#Given any figure return equal to 0 is a success and 1 above is unsuccesful
 
 Troubleshoot_Commands = ["help", "ipconfig", "ipconfig /all", "ipconfig /release", "ipconfig /renew",
                          "ipconfig /?", "ipconfig/flushdns", "net use", "arp -a", "nbtstat -a dc",
