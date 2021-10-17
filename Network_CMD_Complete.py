@@ -9,12 +9,18 @@ import sys
 Troubleshoot_Commands = ["help", "ipconfig", "ipconfig /all", "ipconfig /release", "ipconfig /renew",
                          "ipconfig /?", "ipconfig/flushdns", "net use", "arp -a", "nbtstat -a dc",
                          "getmac", "hostname", "netsh", "net view", "tracert", "netstat -e -p tcp",
-                         "nslookup", "pathping", "systeminfo"]
+                         "nslookup", "pathping", "route print", "net statistics srv", "systeminfo"]
 HelpDesk_Commands = ["gpresult /r >c:\results.txt", "gpupdate /help", "gpresult /r", "gpresult /?"]
 
-print("Command Prompt Execute Script")
+print("Welcome To Network Command Prompt program")
 
 while True:
+    print("Troubleshoot Commands:") 
+    print(Troubleshoot_Commands)
+    print()
+    print("HelpDesk Commands:")
+    print(HelpDesk_Commands)
+    print()
     print("Enter 1 for Single Input, 2 for Multiple :(Max 5), 3 to Exit")
     Choice = int(input())
     for Press in range (1):
@@ -30,11 +36,11 @@ while True:
             CMD_Line = print(CMD_Command)
 
             if CMD_Command >= 1:
-                print("Process -" + Enter + "- Unsuccesful")
+                print("Process -" + Enter + "- Unsuccessful")
                 #sys.exit()
 
             else:
-                print("Process -" + Enter + "- Succesful")
+                print("Process -" + Enter + "- Successful")
                 #sys.exit()
 
         if Choice == 2:
@@ -62,25 +68,25 @@ while True:
                 CMD_Line = print(CMD_Command3)
 
                 if CMD_Command1 >= 1:
-                    print("Process -" + Enter1 + "- Unsuccesful")
+                    print("Process -" + Enter1 + "- Unsuccessful")
 
                 else:
-                    print("Process -" + Enter1 + "- Succesful")
+                    print("Process -" + Enter1 + "- Successful")
 
                 if CMD_Command2 >= 1:
-                    print("Process -" + Enter2 + "- Unsuccesful")
+                    print("Process -" + Enter2 + "- Unsuccessful")
 
                 else:
-                    print("Process -" + Enter2 + "- Succesful")
+                    print("Process -" + Enter2 + "- Successful")
 
                 if Enter3 == "":
                     print("No Further Entry Was given")
 
                 elif CMD_Command3 >= 1:
-                    print("Process -" + Enter3 + "- Unsuccesful")
+                    print("Process -" + Enter3 + "- Unsuccessful")
 
                 else:
-                    print("Process -" + Enter3 + "- Succesful")
+                    print("Process -" + Enter3 + "- Successful")
 
             else:
 
@@ -106,31 +112,31 @@ while True:
                     CMD_Line = print(CMD_Command4)
 
                     if CMD_Command1 >= 1:
-                        print("Process -" + Enter1 + "- Unsuccesful")
+                        print("Process -" + Enter1 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter1 + "- Succesful")
+                        print("Process -" + Enter1 + "- Successful")
 
                     if CMD_Command2 >= 1:
-                        print("Process -" + Enter2 + "- Unsuccesful")
+                        print("Process -" + Enter2 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter2 + "- Succesful")
+                        print("Process -" + Enter2 + "- Successful")
 
                     if CMD_Command3 >= 1:
-                        print("Process -" + Enter3 + "- Unsuccesful")
+                        print("Process -" + Enter3 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter3 + "- Succesful")
+                        print("Process -" + Enter3 + "- Successful")
 
                     if Enter4 == "":
                         print("No Further Entry Was given")
 
                     elif CMD_Command4 >= 1:
-                        print("Process -" + Enter4 + "- Unsuccesful")
+                        print("Process -" + Enter4 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter4 + "- Succesful")
+                        print("Process -" + Enter4 + "- Successful")
 
                 else:
 
@@ -158,37 +164,36 @@ while True:
                     CMD_Line = print(CMD_Command5)
 
                     if CMD_Command1 >= 1:
-                        print("Process -" + Enter1 + "- Unsuccesful")
+                        print("Process -" + Enter1 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter1 + "- Succesful")
+                        print("Process -" + Enter1 + "- Successful")
 
                     if CMD_Command2 >= 1:
-                        print("Process -" + Enter2 + "- Unsuccesful")
+                        print("Process -" + Enter2 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter2 + "- Succesful")
+                        print("Process -" + Enter2 + "- Successful")
 
                     if CMD_Command3 >= 1:
-                        print("Process -" + Enter3 + "- Unsuccesful")
+                        print("Process -" + Enter3 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter3 + "- Succesful")
+                        print("Process -" + Enter3 + "- Successful")
 
                     if CMD_Command4 >= 1:
-                        print("Process -" + Enter4 + "- Unsuccesful")
+                        print("Process -" + Enter4 + "- Unsuccessful")
 
                     else:
-                        print("Process -" + Enter4 + "- Succesful")
+                        print("Process -" + Enter4 + "- Successful")
 
                     if Enter5 == "":
                         print("No Further Entry Was given")
 
                     elif CMD_Command5 >= 1:
-                        print("Process -" + Enter5 + "- Unsuccesful")
+                        print("Process -" + Enter5 + "- Unsuccessful")
                         #sys.exit()
 
                     else:
-                        print("Process -" + Enter5 + "- Succesful")
+                        print("Process -" + Enter5 + "- Successful")
                         #sys.exit()
- 
